@@ -1,9 +1,3 @@
-/*
- * Project: frontend
- * File: index.js - Author: Miguel Couto (couttonet@gmail.com)
- * Copyright 2022 Miguel Couto,
- */
-
 import React from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App/App";

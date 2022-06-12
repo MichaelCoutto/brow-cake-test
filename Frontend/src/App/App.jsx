@@ -1,9 +1,3 @@
-/*
- * Project: frontend
- * File: App.js - Author: Michael Coutto (couttonet@gmail.com)
- * Copyright 2022 Michael Coutto, Solekreative Productions (https://solekreative.com)
- */
-
 import moment from "moment";
 import React, { useEffect, useState } from "react";
 
