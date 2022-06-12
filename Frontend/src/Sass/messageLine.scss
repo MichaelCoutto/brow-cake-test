@@ -1,0 +1,61 @@
+/*
+ * Project: frontend
+ * File: messageLine.scss - Author: Michael Coutto (couttonet@gmail.com)
+ * Copyright 2022 Michael Coutto, Solekreative Productions (https://solekreative.com)
+ */
+
+.message-line {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 20px;
+    border-bottom: 1px solid rgba(black, 0.1);
+
+    &:last-of-type {
+        border-bottom: 0;
+    }
+
+    &-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 25px;
+
+        &-author {
+            font-weight: bold;
+        }
+
+        &-postedat {
+            opacity: 0.3;
+        }
+    }
+
+    &-message {
+        opacity: 0.7;
+    }
+}
+
+.message-post {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 20px;
+
+    &-textarea {
+        flex-grow: 1;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+
+        textarea, input {
+            border: 1px solid var(--color-base);
+            border-radius: 5px;
+            margin-bottom: 5px;
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+}

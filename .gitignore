@@ -1,0 +1,7 @@
+coverage
+Frontend/coverage
+Frontend/node_modules
+Frontend/build
+.vs
+bin/
+obj/
